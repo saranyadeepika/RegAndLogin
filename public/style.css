@@ -1,0 +1,242 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+      .button{
+        
+        width: 400px;
+        height: 300px;
+       
+        margin:15% auto;
+        
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+      }
+     .button a{
+        text-decoration: none;
+    width: 100%;
+    padding: 9px 24px;
+    border-radius: 8px;
+    font-size: 28px;
+    background-color: #FDDA0D	;
+    border: 1px solid #FDDA0D	;
+    color: black;
+    font-weight: 600;
+    font-family: cursive;
+    cursor: pointer;
+    margin-top: 63px;
+   
+      }
+ .finalmainnav
+ {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 20px 30px;
+    border-bottom: 1px solid lavender;
+    box-shadow: 2px 2px 4px lightgray;
+    
+ } 
+ .finalright
+ {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+ }
+ .finalpro
+ {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+ }  
+ .finallogoutbtn button
+ {
+    padding: 9px 24px;
+    border-radius: 8px;
+    font-size: 17px;
+    background-color: #FDDA0D	;
+    border: 1px solid #FDDA0D	;
+    color: black;
+   
+    font-family: cursive;
+    cursor: pointer;
+ }
+ .finalpro p{
+    font-family: cursive;
+    font-size: 21px;
+ }
+ .finalmiddle
+ {
+    position: relative;
+    width: 32%;
+    display: flex;
+    align-items: center;
+ }
+ .finalmiddle input{
+    padding: 12px 11px;
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 15px;
+    
+ }
+ .finalmiddle button
+ {
+    border-radius: 50%;
+    background-color: #FDDA0D;
+    color: black;
+    border: none;
+    padding: 9px;
+    
+    position: absolute;
+    right: 12px;
+    top: 4px;
+    
+ }
+ .proicon
+{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    border: 1px solid lightgray;
+    border-radius: 25px;
+    padding: 8px;
+}
+.icons
+{
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: cursive;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    
+}
+.icons img{
+    width: 32px;
+}
+.maindis
+{
+    display: flex;
+    justify-content: center;
+}
+
+.displaybox
+{
+    text-align: center;
+    outline: 2px solid black;
+   margin-top: 2%;
+    border-radius: 7px;
+    font-family: cursive;
+    width: 37%;
+    display: flex;
+    justify-content: space-around;
+    padding: 14px 30px;
+    
+}
+.displaybox i{
+     
+    color: #FDDA0D;
+    
+
+}
+.displaybox .p2
+{
+    color: rgba(0, 0, 0, 0.514);
+    border-left: 1px solid rgba(51, 48, 48, 0.384);
+    padding-left: 10px;
+}
+.card{
+    padding: 38px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: poppins;
+}
+.card1{
+    width: 300px;
+    padding-bottom: 26px;
+    margin-left: 20px;
+}
+.card1 img
+{
+    width: 300px;
+    height: 250px;
+    border-radius: 14px;
+}
+.des{
+    padding-bottom: 5px;
+}
+.des1
+{   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5px;
+}
+.des .pp
+{
+    color: rgba(0, 0, 0, 0.685);
+}
+.btn
+{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    align-items: center;
+    
+}
+    
+.btn button{
+    padding: 9px 24px;
+    border-radius: 8px;
+    font-size: 17px;
+    background-color: #FDDA0D	;
+    border: 1px solid #FDDA0D	;
+    color: black;
+   
+    font-family: cursive;
+    cursor: pointer;
+}
+.btn p{
+    font-family: poppins;
+}
+.showbtn{
+    text-align: center;
+    
+    
+}
+
+.showbtn button
+{
+    padding: 14px 30px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    position: fixed;
+    bottom: 0;
+    
+    
+}
+.showbtn button i{
+    padding-left: 4px;
+    
+}
+
+    
+
+ 
+
+
+
+
+
+
+

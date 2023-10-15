@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+<body style="margin:0; ">
+   <div class="finalmainnav">
+    <div class="finalimgright">
+        <img src="images/logo.png" alt="">
+    </div>
+    <div class="finalmiddle">
+        <input type="text" placeholder="Search">
+        <button><i><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" aria-hidden="true" role="presentation" focusable="false" style="display: block; fill: none; height: 16px; width: 16px; stroke: currentcolor; stroke-width: 4; overflow: visible;"><path fill="none" d="M13 24a11 11 0 1 0 0-22 11 11 0 0 0 0 22zm8-3 9 9"/></svg></i></button>
+    </div>
+    <div class="finalright">
+        <div class="finalpro">
+        <i><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+        </svg></i>
+        <p><%= name %></p></div>
+        <div class="finallogoutbtn">
+            <button onclick="redirecttologin()">Logout</button>
+        </div>
+    </div>
+   </div>
+   <div class="icons">
+    <div class="farms">
+        <img src="images/farms.jpeg" alt="far">
+        <p>Farms</p>
+    </div>
+    <div class="lakes">
+        <img src="images/lakefront.jpeg" alt="lake">
+        <p>lake</p>
+    </div>
+    <div class="omg">
+        <img src="images/omg.jpeg" alt="omg">
+        <p>OMG</p>
+    </div>
+    <div class="mansion">
+        <img src="images/mansions.jpeg" alt="0">
+        <p>mansion</p>
+    </div>
+    <div class="rooms">
+        <img src="images/rooms.jpeg" alt="0">
+        <p>Rooms</p>
+    </div>
+    <div class="tinyhome">
+        <img src="images/tinyhome.jpeg" alt="0">
+        <p>Tiny homes</p>
+    </div>
+    <div class="treehouse">
+        <img src="images/tree house.jpeg" alt="">
+        <p>Tree house</p>
+    </div>
+    <div class="pools">
+        <img src="images/pools.jpeg" alt="">
+        <p>Pools</p>
+    </div>
+    </div>
+    <div class="maindis">
+    <div class="displaybox">
+        <p class="p1">Display total price</p>
+        <p class="p2">Include all fees before taxes</p>
+        <i><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-brightness-high" viewBox="0 0 16 16">
+            <path d="M8 11a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm0 1a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+          </svg></i>
+    </div>
+    </div>
+    <div class="card">
+        <div class="card1">
+            <div class="img1">
+                <img src="images/d1.webp" alt="">
+            </div>
+            <div class="des">
+                <div class="des1">
+                    <p>Nashik,india</p>
+                    <div class="star">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                          </svg> <span>4.389</span>
+                    </div>
+                    </div>
+                
+                <p class="pp">586 kilometers away</p>
+                <p class="pp">2aug-17sep</p>
+                <p> &#x20B9;5760 <span class="pp">night</span></p>
+            </div>
+            
+        
+        </div>
+        <div class="card1">
+            <div class="img1">
+                <img src="images/d4.webp" alt="">
+            </div>
+            <div class="des">
+                <div class="des1">
+                    <p>Nashik,india</p>
+                    <div class="star">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                          </svg> <span>4.389</span>
+                    </div>
+                    </div>
+                
+                <p class="pp">586 kilometers away</p>
+                <p class="pp">2aug-17sep</p>
+                <p> &#x20B9;5760 <span class="pp">night</span></p>
+            </div>
+            
+        
+        </div>
+        <div class="card1">
+            <div class="img1">
+                <img src="images/d2.webp" alt="">
+            </div>
+            <div class="des">
+                <div class="des1">
+                    <p>Nashik,india</p>
+                    <div class="star">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                          </svg> <span>4.389</span>
+                    </div>
+                    </div>
+                
+                <p class="pp">586 kilometers away</p>
+                <p class="pp">2aug-17sep</p>
+                <p> &#x20B9;5760 <span class="pp">night</span></p>
+            </div>
+            
+        
+        </div>
+        <div class="card1">
+            <div class="img1">
+                <img src="images/d3.webp" alt="">
+            </div>
+            <div class="des">
+                <div class="des1">
+                    <p>Nashik,india</p>
+                    <div class="star">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                          </svg> <span>4.389</span>
+                    </div>
+                    </div>
+                
+                <p class="pp">586 kilometers away</p>
+                <p class="pp">2aug-17sep</p>
+                <p> &#x20B9;5760 <span class="pp">night</span></p>
+            </div>
+            
+        
+        </div>
+        <div class="card1">
+            <div class="img1">
+                <img src="images/d1.webp" alt="">
+            </div>
+            <div class="des">
+                <div class="des1">
+                    <p>Nashik,india</p>
+                    <div class="star">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                          </svg> <span>4.389</span>
+                    </div>
+                    </div>
+                
+                <p class="pp">586 kilometers away</p>
+                <p class="pp">2aug-17sep</p>
+                <p> &#x20B9;5760 <span class="pp">night</span></p>
+            </div>
+            
+        
+        </div>
+        <div class="card1">
+            <div class="img1">
+                <img src="images/d4.webp" alt="">
+            </div>
+            <div class="des">
+                <div class="des1">
+                    <p>Nashik,india</p>
+                    <div class="star">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                          </svg> <span>4.389</span>
+                    </div>
+                    </div>
+                
+                <p class="pp">586 kilometers away</p>
+                <p class="pp">2aug-17sep</p>
+                <p> &#x20B9;5760 <span class="pp">night</span></p>
+            </div>
+            
+        
+        </div>
+        <div class="card1">
+            <div class="img1">
+                <img src="images/d2.webp" alt="">
+            </div>
+            <div class="des">
+                <div class="des1">
+                    <p>Nashik,india</p>
+                    <div class="star">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                          </svg> <span>4.389</span>
+                    </div>
+                    </div>
+                
+                <p class="pp">586 kilometers away</p>
+                <p class="pp">2aug-17sep</p>
+                <p> &#x20B9;5760 <span class="pp">night</span></p>
+            </div>
+            
+        
+        </div>
+        <div class="card1">
+            <div class="img1">
+                <img src="images/d3.webp" alt="">
+            </div>
+            <div class="des">
+                <div class="des1">
+                    <p>Nashik,india</p>
+                    <div class="star">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                          </svg> <span>4.389</span>
+                    </div>
+                    </div>
+                
+                <p class="pp">586 kilometers away</p>
+                <p class="pp">2aug-17sep</p>
+                <p> &#x20B9;5760 <span class="pp">night</span></p>
+            </div>
+            
+        
+        </div>
+        </div>
+    <div class="btn">
+      <p>  Continue exploring farms</p>
+        <button class="bt">Explore more</button>
+    </div>
+   
+    <script src="logic.js"></script>
+</body>
+</html>

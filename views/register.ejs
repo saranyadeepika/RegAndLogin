@@ -1,0 +1,59 @@
+<% let message %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="mainformcont" id="maincont">
+        
+        <div class="logo">
+           <img src="images/logo.png" alt="imgs"></div>
+           
+           
+            <p id="msg" class="error">Welcome guys</p> 
+           
+        <%  if(message===1){ %>
+            <p id="msg" class="error"><%= message %></p>
+        <% } %>
+           
+           
+        
+            
+       
+            
+        
+           
+           <form id="regform" action="/register" method="post">
+               <div class="inputs">   
+                <div >
+                   <input type="text" placeholder="enter your name" class="inp1" id="name" name="Name"></div>
+                   <div >
+                   <input type="email" placeholder="enter your email" class="inp1" id="email" name="email"></div>
+                   <div >
+                   <input type="password" placeholder="enter your password" class="inp1" name="password" id="password"></div>
+               </div>
+               <div class="button" >
+               <button type="submit" id="regcreatebtn">Create account</button>
+            </div>
+           </form>
+        
+        
+           <div class="last">
+            <p>By continuing you agree the<a href=""> terms</a> and you have read our <a href="">privacy policy</a></p>
+        </div>
+        <div class="loginbtn">
+            <button onclick="redirecttologin()">Login</button>
+        </div>
+      </div>
+   
+   <script src="logic.js"></script>
+</body>
+</html>

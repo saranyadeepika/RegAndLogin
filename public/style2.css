@@ -1,0 +1,104 @@
+.mainformcont
+{
+    padding-top: 29px;
+    margin: auto;
+    margin-top: 8%;
+    width: 460px;
+    height: 470px;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    box-shadow: 2px 2px 4px lightgray,-2px -2px 4px lightgray;
+}
+#maincont
+{
+    height: 520px;
+}
+#wel,#msg
+{
+    font-family: Poppins,sans-serif;
+    font-size: 31px;
+    font-weight: 600;
+    color: black;
+}
+.error 
+{
+    color: red;
+    font-size: 17px;
+}
+.inputs
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.inp1
+{
+    padding: 3px 8px;
+    width: 51%;
+    height: 35px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid black;
+    
+}
+.inp1:focus
+{
+    box-shadow:3px 3px 0px yellow,-3px -3px 0px yellow;
+}
+button
+{
+    padding: 9px 24px;
+    border-radius: 8px;
+    font-size: 17px;
+    background-color: #FDDA0D	;
+    border: 1px solid #FDDA0D	;
+    color: black;
+    font-weight: 500;
+    font-family: cursive;
+    cursor: pointer;
+   
+}
+.button button
+{
+    margin-top: 28px;
+    padding: 7px 18px;
+    font-size: 19px;
+    
+}
+.last
+{
+    padding: 0px 71px;
+}
+.last p
+{
+    text-align: center;
+    font-size: 16px;
+    font-family: poppins;
+}
+.loginbtn button
+{
+    position: absolute;
+    right: 21px;
+    /* margin-top: 28px; */
+    padding: 7px 14px;
+    font-size: 17px;
+   
+    
+   
+    
+}
+a{
+    text-decoration: none;
+    color: rgb(26,115,232);
+}
+@keyframes slideIn {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(10px);
+    }
+  }
+  
