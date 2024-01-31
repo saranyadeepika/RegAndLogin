@@ -230,36 +230,35 @@
     
 }
 @media (max-width:600px){
-    .mainav{
-        position: sticky;
-        top: 0;
-        padding: 0;
-        background-color: white;
+    
+    .mainformcont {
+        padding-top: 29px;
+        margin: auto;
+        margin-top: 8%;
+        width: 100%;
+        height: 0;
+        border: none;
+        border-radius: none;
+        text-align: center;
+        position: relative;
+        box-shadow: none;
     }
-    .left{
-        display: none;
-    }
-    .proicon{
-        display: none;
-    }
-    .input input {
-        border: 1px solid lightgray;
-        width: 96%;
+    .finalmainnav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        padding: 12px 10px 9px 5px;
       
-        padding: 10px;
-        border-radius: 25px;
+        border-bottom: 1px solid lavender;
         box-shadow: 2px 2px 4px lightgray;
     }
-    .input button {
-        border-radius: 50%;
-        background-color: rgba(255, 0, 0, 0.726);
-        color: white;
-        border: none;
-        padding: 9px 10px;
-        margin-left: -32px;
-        position: absolute;
-        right: 1.1rem;
-        bottom: 7px;
+    .finalmiddle {
+        position: relative;
+        width: 32%;
+        display: flex;
+        align-items: center;
+        display: none;
     }
     .icons {
         padding: 30px;
@@ -274,6 +273,23 @@
     }
     .defmar{
         margin-right:3% ;
+    }
+    .finalimgright img{
+        width: 59%;
+    }
+    .finallogoutbtn button {
+        padding: 9px 17px;
+        border-radius: 8px;
+        font-size: 17px;
+        background-color: #FDDA0D;
+        border: 1px solid #FDDA0D;
+        color: black;
+        font-family: cursive;
+        cursor: pointer;
+    }
+    .finalpro p {
+        font-family: cursive;
+        font-size: 17px;
     }
     .displaybox {
         text-align: center;
@@ -291,16 +307,7 @@
         color: red;
         line-height: 3;
     }
-    .showbtn button {
-        padding: 14px 30px;
-        background-color: black;
-        color: white;
-        border: 1px solid black;
-        border-radius: 25px;
-        position: fixed;
-        right: 9rem;
-        bottom: 0;
-    }
+    
     footer {
        height: 100%;
         padding-top: 7%;
